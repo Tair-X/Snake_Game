@@ -3,12 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-let dfo=()=>{
-  localStorage(setTimeout(() => {
-    timeout++
-  }, timeout))
-}
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
