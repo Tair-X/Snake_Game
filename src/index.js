@@ -5,7 +5,7 @@ import App from './App';
 
 const [state, setstate] = React.useState(initialState)
 
-const bot=()=>{setstate(state+1)
+const bot=()=>{setstate(state+5)
 
 ReactDOM.render(
   <React.StrictMode>
